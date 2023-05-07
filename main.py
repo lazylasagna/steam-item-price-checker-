@@ -117,8 +117,8 @@ def prognose(database):
     # Подключение к базе данных MySQL
     mydb = mysql.connector.connect(
         host="localhost",
-        user="lazy",
-        password="3721ARbaLeT1",
+        user="",
+        password="",
         database=database
     )
     mycursor = mydb.cursor()
