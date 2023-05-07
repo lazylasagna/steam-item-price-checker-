@@ -47,8 +47,8 @@ def func(url, database):
     # Подключение к базе данных MySQL
     mydb = mysql.connector.connect(
         host="localhost",
-        user="lazy",
-        password="3721ARbaLeT1",
+        user="", #вставить свое
+        password="",
         database=database
     )
     mycursor = mydb.cursor()
